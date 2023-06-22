@@ -1,7 +1,6 @@
 
-export function test(){
-    console.log('hello');
+export class testclass {
+    static test(){
+        console.log('hello');
+    }
 }
-
-
-

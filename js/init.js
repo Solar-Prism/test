@@ -1,8 +1,8 @@
-import test from 'Testmodule';
+import testclass from 'Testmodule';
 
 
 document.addEventListener('onload',(e) => {
-    test();
+    testclass.test();
     console.log('goodbye');
 })
 
