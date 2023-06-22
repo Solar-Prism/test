@@ -1,13 +1,15 @@
 import {testclass} from 'Testmodule';
 
 
-document.addEventListener('onload',(e) => {
+window.addEventListener('load',(e) => {
     console.log(testclass);
     testclass.test();
     console.log('goodbye');
 });
 
-
+window.onload = (e) => {
+    console.log('here I am');
+}
 
 
 
