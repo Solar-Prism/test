@@ -1,4 +1,4 @@
-import test from 'testmodule';
+import test from 'Testmodule';
 
 
 document.addEventListener('onload',(e) => {
